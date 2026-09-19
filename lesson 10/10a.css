@@ -1,0 +1,37 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.name{
+    font-size: 25px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #4285e8;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 6px;
+}
